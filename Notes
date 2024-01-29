@@ -24,4 +24,10 @@ Subscripts are characters that are set below the normal baseline for text. Did y
 The two characters are typeset as a subscript. It is set lower down.
 Superscripts are characters that are set above the normal baseline of text.
 
-Small, sub, and sup are the elements that can help you get the details right when it comes to typography and conveying the full meaning of your content.
+Small, sub, and sup are the elements that can help you get the details right when it comes to typography
+and conveying the full meaning of your content.
+
+DevTools Inspector
+
+If you are ever about the markup to use, visit other websites with similar content and use the developer tools to find out which elements they used. It is especially useful if the website was built by a team we admire because studying others' work helps to understand how to structure your own HTML.
+Additionally, we can use the HTML inspector in the dev tools to debug mistakes.
