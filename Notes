@@ -16,7 +16,7 @@ Inline quotes - <q> element for quotation marks within paragraph
 
 Date elements
 <time datetime= "2024-01-29"> Jan 29, 2024</time>
-<time datetime= "14:15:20"> 14:15:20</time>
+<time datetime= "15:15:20"> 15:15:20</time>
 
 HTML Superscripts, Subscripts and Small Text
 Subscripts, superscripts, and small text can be used where you need to mark up certain bits of content as having a different meaning than the rest.
@@ -31,3 +31,242 @@ DevTools Inspector
 
 If you are ever about the markup to use, visit other websites with similar content and use the developer tools to find out which elements they used. It is especially useful if the website was built by a team we admire because studying others' work helps to understand how to structure your own HTML.
 Additionally, we can use the HTML inspector in the dev tools to debug mistakes.
+
+Audio
+There are other attributes that can be used with the audio element too. For example, "loop" will make the file repeat from the beginning once it reaches the end.
+"Autoplay" can automatically play the audio as soon as the page loads, but be cautious with this one as most people dislike it when audio starts playing on a webpage without their consent. 
+Audio Test
+1. How do you create a video element that specifies different resolutions of video that browsers can choose from when loading the video?
+Answer: You can't do this. Instead, the browser adapts to circumstances as needed.
+
+2. What should you do to create an audio player with controls?
+Ans: Use the audio element with the controls attribute set to yes.
+
+3. Code to output the generic web control player
+Ans: <audio controls src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/birds.mp3"></audio>
+
+4.Drawback of using the HTML video player?
+Ans: It does not permit adaptive bitrate streaming.
+
+5. You can add chapter divisions to videos by _____.
+Ans: 
+referencing a VTT file listing chapters
+
+HTML Generic elements
+1. Which tag must you use within a video element to tell the player where to look for captions?
+Ans: <track>
+
+2. How can you mark a quotation as being in a different language from its surrounding text?
+Ans: Create a < blockquote > element with a lang attribute indicating the language for its contents.
+
+3. What is the difference between the usage of the following?
+<div> and <span>
+Ans: <div> is used for blocks, and <span> is used for a part of a line.
+
+4. Why do you need to specify the desired language for HTML content?
+Ans: So that the correct dictionaries and pronunciations are used
+
+5. What are the best uses for the following HTML elements?
+<div> and <span>
+Ans: To group elements, or mark text within an element.
+
+HTML Structuring
+
+Remember, the main element is used once per page to wrap the main content, while the header, footer, article, section, and aside elements are the five sectioning elements in HTML.
+They are combined and nested to structure the content of a webpage.
+
+1. Which type of tag would you not find in the document head?
+Ans: <p>
+
+2. What are the six major sectioning elements that typically go directly in the body element?
+Ans: <aside>, <main>, <article>, <header>, <footer>, <section>
+
+3. Which type of element would be most appropriate for the blue bar in the image?
+Ans: Header
+
+4. What is the difference between a head element and a header element?
+Ans: The head element contains document metadata, and a header element contains text to be displayed.
+
+5. Which section of an HTML page should contain metadata?
+Ans: The head
+
+Forms and Interactive elements
+
+1. How can you require a certain format for data entered into an input element?
+Ans: By specifying the type attribute
+
+2. How can you most easily change the appearance of the top input form to look like the bottom input form?
+Form fields next to each other to under each other.
+Ans: 
+By adding CSS
+
+3. How does a <label> element affect the type of the <input> element it contains?
+Ans: It doesn't.
+
+4. Why should you use form elements instead of custom coding data inputs in JavaScript?
+Ans: 
+You can have maximum versatility and robustness with minimum effort.
+
+5. What happens when you put a <label> element around an <input> element?
+Ans: Clicking on the label activates that form field, and screen readers know that the label goes with the field.
+
+Tables
+1. Why are tables the preferred option for creating layouts in HTML email?
+Ans: Because the other better options are not supported. (Check this again)
+
+2. Which table-specific element typically is most deeply nested in table-specific parent elements?
+Ans:<td>
+
+3. Where can you find the authoritative standard for HTML?
+Ans: The Living Standard
+
+Create Online portfolio outline
+
+Objective Design
+
+1.  Understanding HTML Syntax:
+
+a. Create a basic HTML document with necessary structure.
+
+b. Use various HTML elements to structure content effectively.
+
+2. Formatting and Styling in HTML:
+
+a. Apply formatting options to text content.
+
+b. Implement inline and block-level elements for proper styling.
+
+3. Incorporating Images and Hyperlinks:
+
+a. Embed images and provide alternative text.
+
+b. Create hyperlinks to external projects and resources.
+
+4. Utilizing Global HTML Attributes:
+
+a. Apply global attributes such as 'class' and 'id' for styling and identification.
+
+5. Developing Navigation Menus and Forms:
+
+a. Create a navigation menu using lists.
+
+b. Construct interactive forms for user engagement.
+
+6. Organizing and Structuring Content:
+
+a. Understand and implement semantic HTML elements.
+
+b. Organize content with proper document structure.
+
+7. Constructing Tables:
+
+a. Build tables to display project or skill-related data.
+
+
+CSS
+1. Which technology makes web pages look pretty?
+Ans: CSS
+
+2. What is the right way to write a comment in CSS?
+Ans: /* this is a comment */
+
+3. What does this CSS code mean?
+.warning, h1 { color: red; } 
+Ans: For all H1s and elements with a class of warning, make the text color red.
+
+4. What does this CSS code mean?
+.intro { font-weight: bold; } 
+Ans: For every HTML element with a class of intro, make the text inside bold.
+
+5. What does this CSS code mean?
+.warning h1 { color: red; } 
+Ans: For all H1s descended from a class of warning, make the text color red. (NOTE: NO COMMA SEPARATING THE CLASS AND H1)
+
+CSS Background images
+1. What is the default behavior for background images?
+Ans: They repeat in the X and Y directions
+
+2. What's a good way to develop a color scheme for your website?
+Ans: B
+A. Upload a photo and derive a scheme from that.
+
+B. All of these answers.
+
+C. Specify a starting color and let a color theme generator identify matching colors.
+
+D. Choose a palette from a series of options on a site like Canva or Adobe Color.
+
+3. Canva offers a color called "scarlet." However, this CSS doesn't work. Why? h3 { color: scarlet; }
+Ans: 
+Only CSS-named colors work directly inside of CSS. Scarlet is not a CSS-named color.
+
+4. A hex value may contain _____
+Ans: Numbers from zero to nine and letters from a-f
+
+5. _____ is an image format that does not work on the web.
+Ans: TIF
+
+1. Which 3 font faces are safe to use online without Google Fonts or similar online font repositories?
+Ans: 
+Arial, Helvetica, and Verdana
+
+2. _____ is an absolute font size, while _____ is a relative font size.
+Ans: Px, rem
+
+3. How do font stacks work in CSS?
+Ans: Each font is evaluated to see if it is available. The first one that is available displays. If no fonts are available, the stack defaults to the specified generic font (sans-serif, serif).
+
+4. Some HTML elements may have some default padding or margin associated with them. Where does this extra space come from? How do you change it?
+Ans: The space comes from the browser's style sheet. You can override this in your own style sheet.
+
+5. The space between the content and the border that may take on a background color is called _____.
+Ans: Padding
+
+Just keep in mind that the order of these styles is crucial. Either use "a" and then "a:hover" or "a:link," "a:visited," and "a:hover" in that specific order for the styling to work correctly. 
+
+ 1. Which types of CSS properties generally inherit?
+Ans: Properties pertaining to text, like font-family, font-weight, etc.
+
+2. What are three possible link states in CSS?
+Ans. Unvisited, visited, and hover.
+
+3. What is the best practice for debugging CSS?
+Ans: Put a border or background color on the thing you are trying to style. If you cannot see it, you cannot style it.
+
+Portfolio CSS
+Objective Design
+
+1.  Applying CSS to Web Pages:
+
+a. Integrate CSS using inline, internal, or external styles.
+
+b. Apply basic styles to HTML elements.
+
+2. Using Selectors:
+
+a. Understand and use different selectors for styling.
+
+b. Comprehend selector specificity.
+
+3. Managing Colors and Multimedia:
+
+a. Apply colors to text, backgrounds, and borders.
+
+b. Integrate multimedia elements with appropriate styling.
+
+4. Applying the Box Model:
+
+a. Understand the box model and implement it for layout.
+
+b. Manage margin, border, padding, and content.
+
+5. Working with Links:
+
+a. Style hyperlinks using pseudo-classes.
+
+b. Implement link states for user interaction.
+
+
+
+
+
