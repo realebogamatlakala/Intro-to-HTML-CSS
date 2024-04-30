@@ -266,7 +266,78 @@ a. Style hyperlinks using pseudo-classes.
 
 b. Implement link states for user interaction.
 
+REACTJS (COMPLETE THE CHAT APPLICATION)
 
+Python Week 1:
+
+Things to remember!
+
+1. Which one is NOT a legal variable name? my-var 
+- cannot start with a number
+- (should not include a dash)
+- cannot have spaces in between.
+
+2. How do you create a variable with the numeric value 5?
+- x = 5, x = int(5) both are correct!
+
+- x = float(2.8) is also correct!
+
+3. What is the correct syntax to output the type of a variable or object in Python?
+- print(type(x)) not the typeof!
+
+4. What is the correct way to create a function in Python?
+def myFunction():
+
+5. In Python, 'Hello', is the same as "Hello"
+ True, you can use single or double quotations for strings.
+
+6. What is a correct syntax to return the first character in a string?
+x = "Hello"[0]
+
+7. Which method can be used to remove any whitespace from both the beginning and the end of a string?
+strip()
+
+8. Which method can be used to return a string in upper case letters?
+upper() not uppercase(), toUpperCase() and upperCase()
+
+9. Which method can be used to replace parts of a string?
+replace()
+
+10. Which operator is used to multiply numbers?
+*
+
+11. Which operator can be used to compare two values?
+==
+
+12. Which of these collections defines a LIST?
+LIST ["apple","banana","cherry"] LISTS are defined using block brackets like arrays! []
+
+13. Which of these collections defines a TUPLE?
+TUPLE ("apple","banana","cherry") TUPLES are defined using round brackets ()
+
+14. Which of these collections defines a SET?
+SET {"apple","banana","cherry"} SETS are defined using curly brackets. {}
+
+15. Which of these collections defines a DICTIONARY?
+DICTIONARY {"name":"apple","color":"green"} defined using name and value. like collection or objects
+
+16. Which collection is ordered, changeable, and allows duplicate members?
+LIST
+
+17. Which collection does not allow duplicate members?
+SET
+
+18. How do you start writing an if statement in Python?
+if x > y: no brackets for the condition and a semi-colon after the condition. IMPORTANT!
+
+19. How do you start writing a while loop in Python?
+while x > y: no brackets for the condition and a semi-colon after the condition. IMPORTANT!
+
+20. How do you start writing a for loop in Python?
+for x in y: 
+
+21. Which statement is used to stop a loop?
+break
 
 
 
